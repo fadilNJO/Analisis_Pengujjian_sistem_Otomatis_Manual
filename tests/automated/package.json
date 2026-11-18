@@ -1,0 +1,13 @@
+{
+  "name": "qa-portal-smoke-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Low-volume public UI smoke tests for the The Internet QA practice portal",
+  "scripts": {
+    "test": "playwright test --workers=1",
+    "test:headed": "playwright test --headed --workers=1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
